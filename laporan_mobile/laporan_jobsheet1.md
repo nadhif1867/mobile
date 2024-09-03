@@ -26,7 +26,20 @@ Karena bahasa yang digunakan pada framework flutter adalah bahasa pemrograman da
 ## Soal 3
 Rangkumlah materi dari codelab ini menjadi poin-poin penting yang dapat Anda gunakan untuk membantu proses pengembangan aplikasi mobile menggunakan framework Flutter.
 
+### Jawaban
+Bahasa Dart adalah inti dari framework Flutter yang akan menjadi dasar untuk bekerja. Pengembang perlu mengetahui asal-usuk bahasa Dart dan lain-lain. Sehingga memiliki pemahaman dasar yang kuat tentang Dart akan memudahkan untuk menjadi lebih produktif dengan Flutter dan merasa nyaman menggunakan Flutter.
 
+Dart diluncurkan pada tahun 2011 dan merilis versi stabilnya pada tahun 2013 yang dimana awalnya berfokus pada pengembangan web dan sekarang berubah berfokus pada mobile development.Sebenarnya tujuan utam Dart adalah untuk menggantikan javascript. Dart mencoba memecahkan masalah pada javascript karena tidak tersedianya ketahanan seperti bahasa lain, menawarkan performa terbaik dan alat yang lebih baik untuk proyek skala besar, dan dibentuk agar kuat dan fleksibel.
 
-## Soal 4
-Buatlah slide yang berisi penjelasan dan contoh eksekusi kode tentang perbedaan Null Safety dan Late variabel ! (Khusus soal ini kelompok berupa link google slide)
+Dart dapat dieksekusi dengan dua cara yaitu:
+* Dart virtual machines (VMs)
+* JavaScript compilations
+
+Tentunya eksekusi dapat berlangsung pada lingkungan yang mendukung bahasa dart dan perlu memperhatikan fitur-fitur berikut:
+* Runtime systems
+* Dart core libraries
+* Garbage collectors
+
+Eksekusi beroperasi dalam dua mode yaitu:
+* kompilasi **Just In Time(JIT)** adalah tempat kode sumber kompilasi sesuai kebutuhan
+* kompilasi ** Ahead Of Time** adalah dimana Dart VM dan kode anda dikompilasi sebelumnya, yang meneyediakan _garbage collector_ dan metode-metode native dari Dart **software development kit** pada aplikasi
